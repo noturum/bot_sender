@@ -1,0 +1,1511 @@
+[ERROR] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to edit not found
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2370, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 737, in start
+    printAdds(message,adds,'expand',True,False,True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 101, in printAdds
+    types.InlineKeyboardButton('пїЅпїЅпїЅпїЅпїЅпїЅ', callback_data=call))
+UnboundLocalError: local variable 'call' referenced before assignment
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2368, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2132, in expandC
+    countf = True if c.date.find('Count') != -1 else False
+AttributeError: 'CallbackQuery' object has no attribute 'date'
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2368, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2141, in expandC
+    printAdds(c.message,db.executeSql('select * from adds where idAdds={}'.format(id))[0],'expand',edit,countf,False,seen,c.message.id)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 80, in printAdds
+    call += f'@{add[1]}'
+TypeError: 'int' object is not subscriptable
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2371, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2328, in collapseC
+    printAdds(c.message,ad,'collapse',edit,countf,False,seen,c.message.id)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 80, in printAdds
+    call += f'@{add[1]}'
+TypeError: 'int' object is not subscriptable
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2372, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2329, in collapseC
+    printAdds(c.message,ad,'collapse',edit,countf,False,seen,c.message.id)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 81, in printAdds
+    call += f'@{add[1]}'
+TypeError: 'int' object is not subscriptable
+[ERROR] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to edit not found
+[ERROR] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to edit not found
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2373, in <module>
+    lastmsg = send_message('{}\n{}'.format(msg[1], msg[3]), c.message, state='support').id
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 602, in start
+    log(message.chat.id, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ', message.text,'btn')
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 265, in log
+    db.executeSql('insert into log(UID,nickname,action,date,title,state) values({},"{}","{}","{}","{}","{}")'.format(uid,username,action,dateLog,title,state),True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: database is locked
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2376, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1799, in cal
+    lastdate=db.executeSql('select date from adds where UID={} and type like "{}%"'.format(c.message.chat.id),'editDate')[0][0]
+IndexError: Replacement index 1 out of range for positional args tuple
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2364, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2129, in expandC
+    seen = int(c.data.split('/')[4]) if c.data.find('Seen') != -1 else None
+ValueError: invalid literal for int() with base 10: '@1088'
+[ERROR] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000167FF33EDF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2113467244:AAFSOi8Dj1INRWLBEIuuFwuOqkwYhtJoHL0/getUpdates?offset=1&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000167FF33EDF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2377, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2113467244:AAFSOi8Dj1INRWLBEIuuFwuOqkwYhtJoHL0/getUpdates?offset=1&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000167FF33EDF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-07-27 15:40:00,808] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2377, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 615, in start
+    raise EOFError
+EOFError
+[2022-07-27 20:00:39,186] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2397, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1857, in cal
+    search = db.executeSql('select * from history where UID={} and status="{}"'.format(c.message.chat.id, 'searchChoosedCity2'))[0]
+IndexError: list index out of range
+[2022-07-27 20:02:08,727] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2397, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1857, in cal
+    search = db.executeSql('select * from history where UID={} and status="{}%"'.format(c.message.chat.id, 'searchChoosedCity'))[0]
+IndexError: list index out of range
+[2022-07-27 20:05:43,757] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2397, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1887, in cal
+    tuple(cities),
+UnboundLocalError: local variable 'cities' referenced before assignment
+[2022-07-27 22:43:05,436] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2360, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2104, in possibleAdds
+    bot.register_next_step_handler(send_message(c.message.text,c.message,addsKeyboard,'adds'))
+TypeError: register_next_step_handler() missing 1 required positional argument: 'callback'
+[2022-07-27 22:59:55,929] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2360, in <module>
+    lastmsg = send_message('{}\n{}'.format(msg[1], msg[3]), c.message, state='support').id
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1239, in creatDealTitle
+    add = db.executeSql(
+IndexError: list index out of range
+[2022-07-27 23:03:48,437] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2363, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1826, in cal
+    lastdate=db.executeSql('select date from adds where UID={} and type like "{}%"'.format(c.message.chat.id),'editDate')[0][0]
+IndexError: Replacement index 1 out of range for positional args tuple
+[2022-07-27 23:45:01,823] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1751, in cal
+    send_message(f"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", c.message,keyboard, state='creatDealTitle',foto='carAddsInfo'),
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 467, in send_message
+    fotoMsg=bot.send_photo(msg.chat.id,open('.\\img\\'+foto+'.png','rb'))
+FileNotFoundError: [Errno 2] No such file or directory: '.\\img\\carAddsInfo.png'
+[2022-07-27 23:47:26,431] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1239, in creatDealTitle
+    add = db.executeSql(
+IndexError: list index out of range
+[2022-07-28 00:12:47,852] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 607, in start
+    log(message.chat.id, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ', message.text,'btn')
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 265, in log
+    db.executeSql('insert into log(UID,nickname,action,date,title,state) values({},"{}","{}","{}","{}","{}")'.format(uid,username,action,dateLog,title,state),True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: database is locked
+[2022-07-28 00:16:55,330] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 577, in welcome
+    db.executeSql('delete from history where UID={}'.format(message.chat.id), True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: database is locked
+[2022-07-28 00:22:56,728] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1614, in searchAdds
+    log(message.chat.id, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ ' , message.text, 'btn')
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 261, in log
+    user = db.executeSql('select * from users where UID={}'.format(uid))[0]
+IndexError: list index out of range
+[2022-07-28 00:27:17,278] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 749, in start
+    printAdds(message,adds,None,True,False,True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 108, in printAdds
+    text = expand(add,id)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 26, in expand
+    user = db.executeSql('select * from users where UID={}'.format(add[0]))[0]
+IndexError: list index out of range
+[2022-07-28 00:30:35,790] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 606, in start
+    count = db.executeSql('select countAdds from users where UID={}'.format(message.chat.id))[0][0]
+IndexError: list index out of range
+[2022-07-28 00:31:57,979] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2378, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 607, in start
+    log(message.chat.id, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ', message.text,'btn')
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 265, in log
+    db.executeSql('insert into log(UID,nickname,action,date,title,state) values({},"{}","{}","{}","{}","{}")'.format(uid,username,action,dateLog,title,state),True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: database is locked
+[2022-07-28 23:18:13,251] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 2384, in <module>
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1371, in creatDealRefer
+    ad = db.executeSql('select type,city1,city2,date,title,contact from adds where idAdds={}'.format(id))[0]
+  File "C:\Users\serv\PycharmProjects\bot_bc\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such table: user
+[2022-07-29 00:20:20,474] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1960, in <module>
+    bot.clear_step_handler_by_chat_id(chat_id=c.message.chat.id)
+NameError: name 'c' is not defined
+[2022-07-29 00:20:27,527] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_bc\bot.py", line 1960, in <module>
+    bot.clear_step_handler_by_chat_id(chat_id=c.message.chat.id)
+NameError: name 'c' is not defined
+[2022-08-03 14:22:51,974] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+[2022-08-03 14:27:23,344] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+[2022-08-03 14:28:37,130] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_git\bot.py", line 2413, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_git\bot.py", line 1380, in creatDealRefer
+    ad = db.executeSql('select type,city1,city2,date,title,contact from adds where idAdds={}'.format(id))[0]
+  File "C:\Users\serv\PycharmProjects\bot_git\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: near "@1143": syntax error
+[2022-08-03 14:30:32,681] => error
+Traceback (most recent call last):
+  File "C:\Users\serv\PycharmProjects\bot_git\bot.py", line 2413, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\serv\PycharmProjects\bot_bc\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\serv\PycharmProjects\bot_git\bot.py", line 1380, in creatDealRefer
+    db.executeSql('update adds set refer="{}" where idAdd={}'.format(message.text,id),True)
+  File "C:\Users\serv\PycharmProjects\bot_git\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: idAdd
+[2022-10-10 15:48:31,070] => A request to the Telegram API was unsuccessful. Error code: 403. Description: Forbidden: bot was blocked by the user
+[2022-10-10 16:02:25,030] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+[2022-10-10 16:12:48,501] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2497, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 607, in start
+    calendar(date.today(), date.today() + timedelta(days=30), 5, message)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 426, in calendar
+    send_message(f'{ymonth[mindate.month]}:', msg, key, 'calendar')
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 456, in send_message
+    lastMsg = bot.send_message(chat_id=msg.chat.id, text=text, reply_markup=keyboard)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 260, in send_message
+    payload['reply_markup'] = _convert_markup(reply_markup)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 1668, in _convert_markup
+    return markup.to_json()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\types.py", line 1107, in to_json
+    return json.dumps(self.to_dict())
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\types.py", line 1111, in to_dict
+    json_dict['inline_keyboard'] = [[button.to_dict() for button in row] for row in self.keyboard]
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\types.py", line 1111, in <listcomp>
+    json_dict['inline_keyboard'] = [[button.to_dict() for button in row] for row in self.keyboard]
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\types.py", line 1111, in <listcomp>
+    json_dict['inline_keyboard'] = [[button.to_dict() for button in row] for row in self.keyboard]
+AttributeError: 'tuple' object has no attribute 'to_dict'
+[2022-10-10 18:57:34,181] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1371, in getresponse
+    response.begin()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2497, in <module>
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+[2022-10-10 19:50:02,958] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2498, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 608, in start
+    calendar( 5, message)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 413, in calendar
+    if maxdate.month != mindate.month:
+NameError: name 'maxdate' is not defined
+[2022-10-10 19:50:23,633] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2498, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 608, in start
+    calendar( 5, message)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 413, in calendar
+    if maxdate.month != mindate.month:
+NameError: name 'maxdate' is not defined
+[2022-10-10 19:51:21,286] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2498, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 608, in start
+    calendar( 5, message)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 418, in calendar
+    for i in range(1, mdays[mindate.month] + 1):
+NameError: name 'mindate' is not defined
+[2022-10-11 21:06:22,169] => error
+Traceback (most recent call last):
+  File "C:/Users/root/PycharmProjects/bot/bot.py", line 2515, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:/Users/root/PycharmProjects/bot/bot.py", line 2049, in c_next
+    if data<cm+2:
+TypeError: '<' not supported between instances of 'str' and 'int'
+[2022-10-11 21:13:26,223] => error
+Traceback (most recent call last):
+  File "C:/Users/root/PycharmProjects/bot/bot.py", line 2515, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:/Users/root/PycharmProjects/bot/bot.py", line 1950, in cal
+    search = db.executeSql('select * from history where UID={} and status like "{}%"'.format(c.message.chat.id, 'searchChoosedCity'))[0]
+IndexError: list index out of range
+[2022-10-15 11:09:16,174] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2567, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1988, in cal
+    search = db.executeSql('select * from history where UID={} and status like "{}%"'.format(c.message.chat.id, 'searchChoosedCity'))[0]
+IndexError: list index out of range
+[2022-10-15 11:09:26,524] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+[2022-10-15 11:09:46,958] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+[2022-10-15 11:19:54,170] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2568, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2023, in cal
+    altAdds=adds = db.executeSql(
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: near ")": syntax error
+[2022-10-15 11:22:55,756] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2568, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2071, in cal
+    if len(altAdds)>0:
+UnboundLocalError: local variable 'altAdds' referenced before assignment
+[2022-10-15 11:23:49,224] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2568, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2023, in cal
+    altAdds=adds = db.executeSql(
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: пїЅпїЅпїЅпїЅпїЅпїЅ
+[2022-10-15 14:10:00,626] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2570, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2025, in cal
+    altAdds=adds = db.executeSql(
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: near ")": syntax error
+[2022-10-15 17:14:56,601] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1371, in getresponse
+    response.begin()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2570, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+[2022-10-23 14:42:32,451] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2661, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1497, in creatDealRefer
+    ad = db.executeSql('select type,city1,city2,date,title,contact from adds where idAdds={}'.format(id))[0]
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: readyRefer
+[2022-10-23 14:44:10,818] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2661, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1413, in creatDealContact
+    db.executeSql('insert into adds(UID,city1,city2,date,title,contact,type) values({},"{}","{}","{}","{}","{}","{}")'.format(add[1],add[3],add[4],add[5],add[6],add[7],add[2]))
+IndexError: list index out of range
+[2022-10-23 14:47:38,839] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2661, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2252, in edit
+    if db.executeSql('select title from adds where idAdds={}'.format(id))[0][0] != None:
+IndexError: list index out of range
+[2022-10-23 14:59:01,716] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2663, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1414, in creatDealContact
+    db.executeSql('insert into adds(UID,city1,city2,date,title,contact,type,status) values({},"{}","{}","{}","{}","{}","{}","notrelease")'.format(add[1],add[3],add[4],add[5],add[6],add[7],add[2]))
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: incomplete input
+[2022-10-23 15:00:27,216] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2663, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1414, in creatDealContact
+    db.executeSql('insert into adds(UID,city1,city2,date,title,contact,type,status) values({},"{}","{}","{}","{}","{}","{}","notrelease"'.format(add[1],add[3],add[4],add[5],add[6],add[7],add[2]))
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: incomplete input
+[2022-10-23 15:01:37,992] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2663, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1874, in cd
+    ad = db.executeSql('select * from adds where idAdds={}'.format(id))[0]
+IndexError: list index out of range
+[2022-10-23 15:06:15,163] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2664, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1415, in creatDealContact
+    id = db.executeSql(f'select from adds where UID={message.chat.id} and status="notrelease"')[0][0]
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: near "from": syntax error
+[2022-10-23 15:07:10,087] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2664, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1875, in cd
+    ad = db.executeSql('select * from adds where idAdds={}'.format(id))[0]
+IndexError: list index out of range
+[2022-10-23 15:08:38,236] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2664, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1883, in cd
+    if ad[0].find('createAddsSend') != -1:
+AttributeError: 'int' object has no attribute 'find'
+[2022-10-23 15:11:49,828] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-10-23 15:11:52,699] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2664, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1499, in creatDealRefer
+    ad = db.executeSql('select type,city1,city2,date,title,contact from adds where idAdds={}'.format(id))[0]
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: readyRefer
+[2022-10-23 15:32:19,941] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2685, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1829, in editAdds
+    type = db.executeSql('select type from adds where idAdds={}'.format(int(id)))[0][0]
+ValueError: invalid literal for int() with base 10: '1153@28535'
+[2022-10-23 15:34:46,833] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2685, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1398, in creatDealContact
+    text = 'Заявка {}'.format('\U0001f697') if add[2].find('Car') != -1 else 'Заявка{}'.format(
+IndexError: list index out of range
+[2022-10-23 15:38:30,139] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to edit not found
+[2022-10-23 15:42:38,258] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to edit not found
+[2022-10-23 15:44:14,638] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to edit not found
+[2022-10-23 17:50:23,636] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-10-23 17:50:36,820] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2761, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 1917, in editAdds
+    lastType = db.executeSql('select type from adds where idAdds={}'.format(id))[0][0]
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: near "@28680": syntax error
+[2022-10-23 17:52:18,400] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2761, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2090, in cal
+    lastdate = db.executeSql(
+IndexError: list index out of range
+[2022-10-23 17:57:51,294] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2761, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2352, in edit
+    if db.executeSql('select title from adds where idAdds={}'.format(id))[0][0] != None:
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: editContact
+[2022-10-23 18:00:15,230] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2761, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2352, in edit
+    if db.executeSql('select title from adds where idAdds={}'.format(id))[0][0] != None:
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: editContact
+[2022-10-23 18:00:32,981] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2761, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2352, in edit
+    if db.executeSql('select title from adds where idAdds={}'.format(id))[0][0] != None:
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: editContact
+[2022-10-23 18:01:52,168] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2761, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2352, in edit
+    if db.executeSql('select title from adds where idAdds={}'.format(id))[0][0] != None:
+  File "C:\Users\root\PycharmProjects\bot\dbConn.py", line 15, in executeSql
+    cursor.execute(sql)
+sqlite3.OperationalError: no such column: editContact
+[2022-10-23 18:30:44,486] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2767, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2127, in cal
+    keyboard.add(types.InlineKeyboardButton('Редактировать', callback_data=f'edit@{idAdd+"@"+msg}'),
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[2022-10-23 19:44:08,942] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-10-23 19:45:14,413] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2773, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2180, in cal
+    if type.find('searchAdds') != -1:
+AttributeError: 'int' object has no attribute 'find'
+[2022-10-23 19:46:37,014] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2773, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2204, in cal
+    loc_city1 = db.executeSql(f'select local from cities where name="{search[2]}"')[0][0]
+IndexError: list index out of range
+[2022-10-23 19:54:05,328] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1371, in getresponse
+    response.begin()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2773, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+[2022-10-23 20:54:03,538] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-10-23 20:54:49,608] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-10-23 20:55:40,389] => A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+[2022-10-23 22:02:22,732] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000027786E1FCA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2113467244:AAFSOi8Dj1INRWLBEIuuFwuOqkwYhtJoHL0/getUpdates?offset=590047191&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027786E1FCA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2773, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2113467244:AAFSOi8Dj1INRWLBEIuuFwuOqkwYhtJoHL0/getUpdates?offset=590047191&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027786E1FCA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2022-10-23 23:03:25,734] => error
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1371, in getresponse
+    response.begin()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\root\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\root\PycharmProjects\bot\bot.py", line 2780, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\root\PycharmProjects\bot\venv\lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)

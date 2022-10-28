@@ -1,0 +1,30 @@
+/usr/lib/virt-sysprep/firstboot.sh start
+Scripts dir: /usr/lib/virt-sysprep/scripts
+=== Running /usr/lib/virt-sysprep/scripts/0001--bin-bash--root--firstboot_script ===
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable ssh
+Removed /etc/systemd/system/multi-user.target.wants/ssh.service.
+Removed /etc/systemd/system/sshd.service.
+ssh-keygen: generating new host keys: RSA DSA ECDSA ED25519 
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable ssh
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+/usr/lib/virt-sysprep/firstboot.sh start
+Scripts dir: /usr/lib/virt-sysprep/scripts
+=== Running /usr/lib/virt-sysprep/scripts/0001--bin-bash--root--firstboot_script ===
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable ssh
+Removed /etc/systemd/system/multi-user.target.wants/ssh.service.
+Removed /etc/systemd/system/sshd.service.
+ssh-keygen: generating new host keys: RSA DSA ECDSA ED25519 
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable ssh
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+/usr/lib/virt-sysprep/firstboot.sh start
+Scripts dir: /usr/lib/virt-sysprep/scripts
+/usr/lib/virt-sysprep/firstboot.sh start
+Scripts dir: /usr/lib/virt-sysprep/scripts
+/etc/init.d/guestfs-firstboot status
+Scripts dir: /usr/lib/virt-sysprep/scripts
